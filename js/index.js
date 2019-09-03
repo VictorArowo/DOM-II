@@ -14,3 +14,10 @@ header.addEventListener('dblclick', e  =>  {
 });
 
 
+//Increase scale of nav items on mouse enter
+
+nav.forEach(a => a.addEventListener("mouseenter", (e) => {
+    e.target.classList.add("scale");
+}));
+
+
