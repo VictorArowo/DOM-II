@@ -21,3 +21,9 @@ nav.forEach(a => a.addEventListener("mouseenter", (e) => {
 }));
 
 
+//Reset scale of nav items on mouse leave
+
+nav.forEach(a => a.addEventListener("mouseleave", (e) => {
+    e.target.classList.remove("scale");
+}));
+
